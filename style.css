@@ -1,0 +1,212 @@
+@font-face {
+    font-family: 'YS Text';
+    src: url('https://yastatic.net/s3/home/fonts/ys/4/text-black.woff') format('woff');
+    font-weight: 900;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'YS Text';
+    src: url('https://yastatic.net/s3/home/fonts/ys/4/text-medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'YS Text';
+    src: url('https://yastatic.net/s3/home/fonts/ys/4/text-regular.woff') format('woff');
+    font-weight: 400;
+    font-style: normal;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: "YS Text";
+    align-items: center;
+}
+
+.container{
+    width: 1440px;
+    margin: 0 auto;
+}
+
+header{
+    height: 804px;
+    display: flex;
+}
+
+
+.block-header{
+    margin-top: 124.94px;
+    margin-left: 262px;
+}
+
+.ya-logo{
+    margin-bottom: 72px;
+}
+
+.smkt-img-header{
+    position: absolute;
+    width: 744px;
+    height: 618px;
+    z-index: -1;
+    margin-top: 108px;
+    margin-left: -147px;
+    transform: rotate(-8.008deg);
+}
+
+.smkt-light{
+    position: relative;
+}
+
+.header-bold-text-cont{
+    width: 420px;
+    height: 196px;
+}
+
+.header-bold-text{
+    line-height: 72px;
+    font-size: 72px;
+    font-weight: 900;
+    letter-spacing: -1.44px;
+    color: #21201F;
+}
+
+.header-medium-text-cont{
+    margin-top: 48px;
+    width: 465px;
+}
+
+.header-medium-text{
+    color: #21201F;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 130%;
+    width: 465px;
+}
+
+.header-button{
+    margin-top: 44px;
+    border-radius: 36px;
+    background: #FFDE40;
+    padding: 24px 48px;
+    width: 222px;
+}
+
+.header-button:hover{
+    box-shadow: 0 4px 98px 0 rgba(255, 222, 64, 0.59);
+}
+
+.text-button{
+    color: #21201F;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 22px;
+}
+
+.sale-price{
+    color: #2E2C21;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 120%; /* 28.8px */
+    border-radius: 500px;
+    background: radial-gradient(141.42% 141.42% at 100% 0%, #E0B8FF 0%, #B6B9FF 100%);
+    padding: 2.5px 9px;
+    height: 33px;
+    width: 79px;
+    margin-right: -50px;
+}
+
+.old-price{
+    color: #808080;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 100%; /* 19.2px */
+    width: 115px;
+    margin-bottom: 5px;
+    text-decoration: line-through;
+    height: 33px;
+    border-radius: 500px;
+    padding: 9px 12px 9px 10px;
+    padding-left: 50px;
+    background: linear-gradient(0deg, rgba(255, 255, 255, 0.63) 0%, rgba(255, 255, 255, 0.63) 100%), radial-gradient(141.42% 141.42% at 100% 0%, #E0B8FF 0%, #B6B9FF 100%);
+}
+
+.light-head{
+    position: absolute;
+    width: 657.8px;
+    height: 401.9px;
+    right: -506px;
+    top: -20px;
+    border-radius: 657.8px;
+    opacity: 0.5;
+    transform: rotate(-140.03deg);
+    background: #8241EF;
+    filter: blur(100px);
+    z-index: -1;
+}
+
+.first-block{
+    margin-left: 262px;
+    margin-top: 3px;
+}
+
+.fb-heading{
+    color: #21201F;
+    font-size: 56px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 100%;
+    letter-spacing: -1.12px;
+}
+
+.fb-grid{
+    display: grid;
+    margin-top: 48px;
+    grid-template-columns: 362px 400px;
+    grid-column-gap: 112px;
+    grid-row-gap: 61px;
+
+}
+
+.fb-grid-text{
+    color: #21201F;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 120%; /* 28.8px */
+}
+
+.second-block{
+    margin-left: 262px;
+    margin-top: 128px;
+}
+
+.sb-heading{
+    color: #21201F;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 100%; /* 48px */
+    letter-spacing: -0.96px;
+}
+
+.sb-text{
+    color: #21201F;
+    leading-trim: both;
+    text-edge: cap;
+    font-family: YS Text;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 120%; /* 28.8px */
+    width: 442px;
+    margin-top: 48px;
+}
