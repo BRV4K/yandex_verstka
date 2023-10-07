@@ -354,6 +354,7 @@ header{
 }
 
 .smkt4{
+    position: absolute;
     margin-left: 99.22px;
 }
 
@@ -367,7 +368,7 @@ header{
 }
 
 .fb-right{
-    margin-left: 183.69px;
+    margin-left: 583.69px;
 }
 
 .fb-text{
