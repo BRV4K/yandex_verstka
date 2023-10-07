@@ -200,13 +200,70 @@ header{
 
 .sb-text{
     color: #21201F;
-    leading-trim: both;
-    text-edge: cap;
-    font-family: YS Text;
     font-size: 24px;
     font-style: normal;
     font-weight: 500;
     line-height: 120%; /* 28.8px */
     width: 442px;
     margin-top: 48px;
+}
+
+.photo{
+    border-radius: 64px;
+    width: 455px;
+    height: 455px;
+}
+
+.grid-photos{
+    margin-top: 86.3px;
+    display: grid;
+    grid-template-columns: 456px 456px;
+    grid-column-gap: 23px;
+    grid-row-gap: 23px;
+    transform: rotate(2deg);
+}
+
+.first-photo{
+    margin-bottom: 1px;
+    position: relative;
+    width: 456px;
+    height: 456px;
+}
+
+.second-photo{
+    position: relative;
+    margin-top: -227.5px;
+    width: 456px;
+    height: 456px;
+}
+
+.third-photo{
+    width: 456px;
+    height: 456px;
+}
+
+.fourth-photo{
+    position: relative;
+    margin-top: -227.5px;
+    width: 456px;
+    height: 456px;
+}
+
+.icon1{
+    position: absolute;
+    bottom: 35px;
+    right: 215px;
+    transform: rotate(-15deg);
+}
+
+.icon2{
+    position: absolute;
+    left: 243px;
+    bottom: 250px;
+}
+
+.icon4{
+    position: absolute;
+    left: 115px;
+    top: 128px;
 }
