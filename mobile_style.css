@@ -1,0 +1,325 @@
+@font-face {
+    font-family: 'YS Text';
+    src: url('https://yastatic.net/s3/home/fonts/ys/4/text-black.woff') format('woff');
+    font-weight: 900;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'YS Text';
+    src: url('https://yastatic.net/s3/home/fonts/ys/4/text-medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'YS Text';
+    src: url('https://yastatic.net/s3/home/fonts/ys/4/text-regular.woff') format('woff');
+    font-weight: 400;
+    font-style: normal;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: "YS Text";
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0.00) 0%, #FFF 100%);
+}
+
+.container{
+    width: 375px;
+    margin: 0 auto;
+}
+
+.block-header{
+    margin-top: 32px;
+    margin-left: 32px;
+}
+
+h1{
+    color: #21201F;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 100%; /* 36px */
+    letter-spacing: -0.72px;
+    margin-top: 32px;
+    margin-bottom: 35px;
+}
+
+.header-medium-text{
+    color: #21201F;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 130%; /* 23.4px */
+}
+
+.new-price{
+    position: absolute;
+    color: #21201F;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 120%; /* 21.6px */
+    border-radius: 500px;
+    background: radial-gradient(141.42% 141.42% at 100% 0%, #E0B8FF 0%, #B6B9FF 100%);
+    padding: 0.71px 5.71px 0.71px 4.71px;
+    margin-left: 2px;
+
+}
+
+.old-price{
+    color: #808080;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 120%; /* 15.6px */
+    text-decoration: line-through;
+    position: absolute;
+    border-radius: 500px;
+    background: linear-gradient(0deg, rgba(255, 255, 255, 0.63) 0%, rgba(255, 255, 255, 0.63) 100%), radial-gradient(141.42% 141.42% at 100% 0%, #E0B8FF 0%, #B6B9FF 100%);
+    overflow: hidden;
+    padding: 4.71px 4px 2.71px 58px;
+    margin-left: 2px;
+}
+
+.img_header{
+    width: 319.8px;
+    transform: rotate(-8.008deg);
+    margin-top: -20px;
+    margin-left: -10px;
+    margin-bottom: 41.83px;
+}
+
+.first-block{
+    margin-left: 32px;
+}
+
+.fb-heading{
+    color: #21201F;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 100%; /* 32px */
+    letter-spacing: -0.64px;
+    margin-bottom: 32px;
+}
+
+.fb-img-txt{
+    display: flex;
+    margin-top: 24px;
+    vertical-align: center;
+}
+
+.fb-text1{
+    vertical-align: center;
+    color: #21201F;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 120%;
+    padding-top: 22.5px;
+}
+
+.fb-text2{
+    vertical-align: center;
+    color: #21201F;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 120%;
+}
+
+.fb-text3{
+    vertical-align: center;
+    color: #21201F;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 120%;
+    padding-top: 3.5px;
+}
+
+.fb-text4{
+    vertical-align: center;
+    color: #21201F;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 120%;
+}
+
+.fb-img1{
+    margin-right: 16px;
+    width: 83px;
+    height: 83px;
+    vertical-align: center;
+}
+
+.fb-img2{
+    margin-right: 16px;
+    width: 83px;
+    height: 83px;
+    vertical-align: center;
+    padding-top: 6px;
+}
+
+.fb-img3{
+    margin-right: 16px;
+    width: 83px;
+    height: 83px;
+    vertical-align: center;
+}
+
+.fb-img4{
+    margin-right: 16px;
+    width: 83px;
+    height: 83px;
+    vertical-align: center;
+    padding-top: 6px;
+}
+
+.second-block{
+    margin-left: 32px;
+    margin-top: 72px;
+}
+
+.sb-heading{
+    color: #21201F;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 100%; /* 32px */
+    letter-spacing: -0.64px;
+}
+
+.sb-text{
+    margin-top: 32px;
+    color: #21201F;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 120%; /* 19.2px */
+}
+
+.slider-img{
+    border-radius: 48px;
+    width: 343px;
+    height: 343px;
+}
+
+.slider{
+    margin-left: 16px;
+    margin-top: 48px;
+    position: relative;
+}
+
+.slider-btns{
+    display: flex;
+    gap: 12px;
+    margin: 0 auto;
+    width: 108px;
+}
+
+.icon{
+    position: absolute;
+    top: -80px;
+    left: 210px;
+}
+
+.third-block{
+    margin-top: 72px;
+    margin-left: 32px;
+    position: relative;
+}
+
+.tb-heading{
+    color: #21201F;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 100%; /* 32px */
+    letter-spacing: -0.64px;
+    margin-bottom: 32px;
+}
+
+.tb-text{
+    color: #21201F;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 120%; /* 19.2px */
+}
+
+.tb-img{
+    height: 262.23px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.tb-light{
+    position: absolute;
+    top: 270px;
+    left: -35px;
+}
+
+.fourth-block{
+    margin-left: 32px;
+    margin-top: 26.32px;
+    margin-right: 32px;
+}
+
+.fb-heading{
+    color: #21201F;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 100%; /* 32px */
+    letter-spacing: -0.64px;
+}
+
+.fb-text{
+    color: #21201F;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 120%; /* 19.2px */
+    margin-bottom: 32px;
+}
+
+.fb-button{
+    color: #21201F;
+    text-align: center;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 22px; /* 122.222% */
+    border-radius: 36px;
+    background: #FFDE40;
+    padding: 18px 0px;
+}
+
+.fb-button:hover{
+    box-shadow: 0px 4px 64px 0px rgba(255, 222, 64, 0.59);
+}
+
+footer{
+    margin: 72px 32px;
+}
+
+.footer-text{
+    color: #C5C5C5;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 120%; /* 12px */
+}
+
+.footer-link{
+    text-decoration: underline;
+    color: #C5C5C5;
+}
