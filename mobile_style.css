@@ -32,6 +32,7 @@ body{
 .container{
     width: 375px;
     margin: 0 auto;
+    position: relative;
 }
 
 .block-header{
@@ -292,15 +293,22 @@ h1{
 }
 
 .fb-button{
-    color: #21201F;
+    position: relative;
     text-align: center;
+    border-radius: 36px;
+    background: #FFDE40;
+    padding: 18px 0;
+    width: 311px;
+    z-index: 9999;
+}
+
+.btn-text{
+    color: #21201F;
+    text-decoration: none;
     font-size: 18px;
     font-style: normal;
     font-weight: 500;
-    line-height: 22px; /* 122.222% */
-    border-radius: 36px;
-    background: #FFDE40;
-    padding: 18px 0px;
+    line-height: 22px;
 }
 
 .fb-button:hover{
@@ -322,4 +330,31 @@ footer{
 .footer-link{
     text-decoration: underline;
     color: #C5C5C5;
+}
+
+.fix-button{
+    position: fixed;
+    width: 311px;
+    padding: 18px 0;
+    border-radius: 36px;
+    background: #FFDE40;
+    justify-content: center;
+    align-items: center;
+    z-index: 5;
+    bottom: 24px;
+    margin-left: 32px;
+    text-align: center;
+}
+
+.fix-button:hover{
+    box-shadow: 0 4px 64px 0 rgba(255, 222, 64, 0.59);
+}
+
+.fix-btn-text{
+    text-decoration: none;
+    color: #21201F;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 22px; /* 122.222% */
 }
